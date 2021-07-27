@@ -55,11 +55,16 @@ button {
 }
 
 #rollBtn {
-    background-color: var(--color-5);
+    background: var(--color-5);
 }
 
 #resetBtn {
-    background-color: var(--color-4);
+    background: var(--color-4);
+}
+
+#double {
+    background: var(--color-5);
+    display: block;
 }
 
 button:focus {
