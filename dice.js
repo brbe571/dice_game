@@ -69,10 +69,10 @@ if (player1Turn) {
     message.textContent = "Player 1 Turn"
 }
 
-if (player1Score >= 20 && !player1Turn) {
+if (player1Score >= 20 && !player1Turn && player1Score > player2Score) {
     message.textContent = "Player 1 Won 🥳"
     showResetButton()
-}  else if (player2Score >= 20 && !player2Turn) {
+}  else if (player2Score >= 20 && !player2Turn && player2Score > player1Score) {
     message.textContent = "Player 2 Won 🎉"
     showResetButton()
 }
